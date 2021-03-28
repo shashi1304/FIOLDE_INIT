@@ -1,0 +1,15 @@
+total 52
+drwxr-xr-x 3 root root 4096 Mar 21 00:22 linux
+drwxr-xr-x 3 root root 4096 Mar 23 14:21 devo5
+drwxr-xr-x 2 root root 4096 Mar 23 14:34 devo1
+drwxr-xr-x 2 root root 4096 Mar 23 14:44 visual
+drwxr-xr-x 2 root root 4096 Mar 23 20:39 seen
+-rw-r--r-- 1 root root   26 Mar 24 13:54 test.sh
+-rw-r--r-- 1 root root   26 Mar 24 13:54 loop.sh
+-rw-r--r-- 1 root root   20 Mar 24 13:54 1
+-rw-r--r-- 1 root root   28 Mar 24 13:56 format.sh
+-rw-r--r-- 1 root root   35 Mar 24 14:00 script.sh
+-rw-r--r-- 1 root root  599 Mar 24 14:18 List_of_Files.lkp
+-rw-r--r-- 1 root root  667 Mar 24 14:22 List_of_Files_+%Y%m%d%.lkp
+-rw-r--r-- 1 root root  557 Mar 24 15:18 project1.sh
+-rw-r--r-- 1 root root    0 Mar 24 15:18 List_of_Files_.lkp

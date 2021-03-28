@@ -1,6 +1,0 @@
-#!bin\bash
-for file in folder2
-do
-	mv $file folder1
-
-	done

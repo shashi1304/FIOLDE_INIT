@@ -1,0 +1,32 @@
+#!bin\bash 
+  
+echo "Parameter I passed"  $0 $1 $2
+x=$?
+echo $x "This is returned from ?"
+SRC_DIR=$1
+DEST_DIR=./devo6/
+LKP_LIST_FILE=./List_of_Files.lkp
+#List of Files in Source Directory
+#if [ -e $LKP_LIST_FILE ]; then
+        rm $LKP_LIST_FILE
+echo " I am in if"
+#fi
+ls -lrt ${SRC_DIR} >> $LKP_LIST_FILE
+#Create a list
+#for line in `cat $LKP_LIST_FILE`;
+#do
+         echo "I am here at $line"
+#done 
+
+PATH_LIST_FILE=./text.txt
+for file in $PATH_LIST_FILE
+do
+        grep -i "linux" $file 
+	
+echo $x " files listed " $file
+echo  " file is moved" $file
+mv $file $DEST_DIR
+
+
+done
+
